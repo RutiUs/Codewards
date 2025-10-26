@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кодвардс</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+<div class="body-wrapper">
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <a class="logo" href="./index.html">
+                Код<span>вардс</span>
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-home" href="./index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-parent" href="./parent.html">
+                            Родителям
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-teacher" href="./teacher.html">
+                            Учителям
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-faq" href="./accordion.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-contact" href="#">
+                            Контакты
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" data-lang="menu-code" href="./code.html">
+                            Урок кода
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div class="header__right">
+                <div class="header__right-languages">
+                    <p class="header__right-text" data-lang="menu-lang">
+                        Язык
+                    </p>
+                    <div class="header__right-language">
+                        <img class="header__right-icon" src="./images/svg/russia.svg" alt="russia">
+                        <ul class="dropdown__list">
+                            <li class="dropdown__item">
+                                <a class="dropdown__item-link" data-btn="ru" href="#">
+                                    <img src="https://flagsapi.com/RU/flat/24.png" alt="Russia">
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__item-link" data-btn="en" href="#">
+                                    <img src="https://flagsapi.com/GB/flat/24.png" alt="United Kingdom">
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__item-link" data-btn="de" href="#">
+                                    <img src="https://flagsapi.com/DE/flat/24.png" alt="Germany">
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__item-link" data-btn="fr" href="#">
+                                    <img src="https://flagsapi.com/FR/flat/24.png" alt="France">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="header__right-btn header__right-btn--registration  button--yellow" data-lang="menu-register">
+                    Регистрация
+                </button>
+                <button class="header__right-btn header__right-btn--enter button--yellow" data-lang="enter">
+                    Войти
+                </button>
+            </div>
+        </div>
+        <div class="header__mobile">
+            <a class="logo" href="./index.html">
+                Код<span>вардс</span>
+            </a>
+            <nav class="menu-mobile">
+                <button class="menu-mobile__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="menu-mobile__box">
+                    <ul class="menu-mobile__list">
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-home" href="./index.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-parent" href="./parent.html">
+                                Родителям
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-teacher" href="#">
+                                Учителям
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-faq" href="./accordion.html">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-contact" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a class="menu-mobile__link" data-lang="menu-code" href="./code.html">
+                                Урок кода
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header__right-languages">
+                    <p class="header__right-text" data-lang="menu-lang">
+                        Язык
+                    </p>
+                    <div class="header__right-language">
+                            <img class="header__right-icon" src="./images/svg/russia.svg" alt="russia">
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" data-btn="ru" href="#">
+                                        <img src="https://flagsapi.com/RU/flat/24.png" alt="Russia">
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" data-btn="en" href="#">
+                                        <img src="https://flagsapi.com/GB/flat/24.png" alt="United Kingdom">
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" data-btn="de" href="#">
+                                        <img src="https://flagsapi.com/DE/flat/24.png" alt="Germany">
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" data-btn="fr" href="#">
+                                        <img src="https://flagsapi.com/FR/flat/24.png" alt="France">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="header__right-btn header__right-btn--registration button--yellow" data-lang="menu-register">
+                    Регистрация
+                    </button>
+                    <button class="header__right-btn header__right-btn--enter button--yellow" data-lang="enter">
+                        Войти
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="main">
+<section class="accordion">
+    <div class="container">
+        <h1 class="accordion__title title" data-lang="accordion-title">
+            ВОПРОС-ОТВЕТ
+        </h1>
+        <div class="accordion-box">
+            <h2 class="accordion-box__title" data-lang="accordion-subtitle">
+                ОБЩИЕ
+            </h2>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionOne-btn">
+                    Что такое Кодвардс?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionTwo-btn">
+                    Для какого возраста предназначен продукт?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionThree-btn">
+                    Нужно ли скачивать и устанавливать какие-то программы для начала обучения?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionFour-btn">
+                    Какие технические требования?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionFive-btn">
+                    Какие у вас планы по выпуску нового контента?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionSix-btn">
+                    На каких языках доступно обучение?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionSeven-btn">
+                    Какие темы изучаются в ходе обучения?
+                </button>
+                <div class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </div>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionEight-btn">
+                    Выдается ли по окончании курса какой-то сертификат?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+        </div>
+        <div class="accordion-box">
+            <h2 class="accordion-box__title" data-lang="accordionTwo-title">
+                ИГРА
+            </h2>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionNine-btn">
+                    Как перейти от одного задания-челленджа к другому?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionTen-btn">
+                    Не могу пройти задание. Можно ли пропустить челлендж?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionEleven-btn">
+                    Как попасть в личный кабинет учителя?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+        </div>
+         <div class="accordion-box">
+            <h2 class="accordion-box__title" data-lang="accordionThree-title">
+                ОПЛАТА И ПОСТАВКА
+            </h2>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionTwelve-btn">
+                    Сколько стоит курс?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionThirteen-btn">
+                    Нужно ли отдельно доплачивать за аккаунт учителя?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionFourteen-btn">
+                    Как быстро можно начинать уроки после оплаты?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionFifteen-btn">
+                    Хочу оплатить курс. Можно это сделать онлайн на сайте?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionSixteen-btn">
+                    Помогаете ли вы с набором групп?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+            <div class="accordion-box__content">
+                <button class="accordion-box__content-btn" data-lang="accordionSeventeen-btn">
+                    Где скачать методические материалы для проведения занятий?
+                </button>
+                <p class="accordion-box__content-text" data-lang="accordion-text">
+                    Наши игры не только обучают программированию, но и предлагают захватывающие приключения, которые заставляют детей увлеченно исследовать мир кода
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <div class="contact__content">
+            <h3 class="contact__content-title title" data-lang="contact-title">
+                СВЯЖИТЕСЬ С НАМИ
+            </h3>
+            <div class="contact__content-text" data-lang="contact-text">
+                Еcли у вас возникли вопросы или предложения, отправьте нам письмо на адрес электронной почты <a class="contact__content-link" href="mailto:info@codewards.ru">info@codewards.ru</a>
+            </div>
+            <div class="contact__box-links">
+                <a class="contact__box-link" href="https://vk.com">
+                    <img class="contact__box-icon" src="./images/svg/vk.svg" alt="vk">
+                </a>
+                <a class="contact__box-link new-button" href="#" data-lang="contact-social">
+                    МЫ В СОЦ СЕТЯХ
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal" id="popup-register">
+    <div class="modal__box">
+        <h3 class="modal__title" data-lang="modal-register">
+            РЕГИСТРАЦИЯ
+        </h3>
+        <button class="modal__btn-close">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.207722 19.7905C0.274064 19.8569 0.352846 19.9096 0.439564 19.9456C0.526282 19.9815 0.619236 20 0.713109 20C0.806983 20 0.899937 19.9815 0.986655 19.9456C1.07337 19.9096 1.15216 19.8569 1.2185 19.7905L9.9976 11.0124L18.7803 19.7905C18.9143 19.9245 19.0961 19.9998 19.2857 19.9998C19.4752 19.9998 19.657 19.9245 19.7911 19.7905C19.9251 19.6565 20.0004 19.4747 20.0004 19.2852C20.0004 19.0956 19.9251 18.9139 19.7911 18.7799L11.0084 10.0017L19.7875 1.21998C19.9215 1.08596 19.9968 0.904185 19.9968 0.714649C19.9968 0.525112 19.9215 0.343338 19.7875 0.209316C19.6534 0.0752931 19.4716 0 19.2821 0C19.0925 0 18.9107 0.0752931 18.7767 0.209316L9.9976 8.99104L1.21493 0.212887C1.07827 0.0958738 0.902494 0.0347295 0.722715 0.0416729C0.542935 0.0486162 0.372397 0.123136 0.245179 0.25034C0.117961 0.377544 0.043433 0.548064 0.0364889 0.727824C0.0295448 0.907584 0.0906957 1.08334 0.207722 1.21998L8.98683 10.0017L0.207722 18.7834C0.0746772 18.9172 0 19.0983 0 19.287C0 19.4757 0.0746772 19.6567 0.207722 19.7905Z" fill="black" />
+            </svg>
+        </button>
+        <form class="modal__form">
+            <input class="modal__form-input" type="text" placeholder="Имя">
+            <input class="modal__form-input" type="text" placeholder="Фамилия">
+            <input class="modal__form-input" type="text" placeholder="Логин">
+            <input class="modal__form-input" type="password" placeholder="Пароль">
+            <select class="modal__form-select">
+                <option class="modal__form-opition">
+                    Ученик
+                </option>
+                  <option class="modal__form-opition">
+                    Учитель
+                </option>
+            </select>
+            <button class="modal__form-btn new-button" type="submit" data-lang="modal-registerBtn">
+                ЗАРЕГИСТРИРОВАТЬСЯ
+            </button>
+        </form>        
+    </div>
+</div>
+<div class="modal" id="popup-enter">
+    <div class="modal__box">
+        <h3 class="modal__title modal__title--enter" data-lang="modal-enter">
+            ВХОД
+        </h3>
+        <button class="modal__btn-close">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.207722 19.7905C0.274064 19.8569 0.352846 19.9096 0.439564 19.9456C0.526282 19.9815 0.619236 20 0.713109 20C0.806983 20 0.899937 19.9815 0.986655 19.9456C1.07337 19.9096 1.15216 19.8569 1.2185 19.7905L9.9976 11.0124L18.7803 19.7905C18.9143 19.9245 19.0961 19.9998 19.2857 19.9998C19.4752 19.9998 19.657 19.9245 19.7911 19.7905C19.9251 19.6565 20.0004 19.4747 20.0004 19.2852C20.0004 19.0956 19.9251 18.9139 19.7911 18.7799L11.0084 10.0017L19.7875 1.21998C19.9215 1.08596 19.9968 0.904185 19.9968 0.714649C19.9968 0.525112 19.9215 0.343338 19.7875 0.209316C19.6534 0.0752931 19.4716 0 19.2821 0C19.0925 0 18.9107 0.0752931 18.7767 0.209316L9.9976 8.99104L1.21493 0.212887C1.07827 0.0958738 0.902494 0.0347295 0.722715 0.0416729C0.542935 0.0486162 0.372397 0.123136 0.245179 0.25034C0.117961 0.377544 0.043433 0.548064 0.0364889 0.727824C0.0295448 0.907584 0.0906957 1.08334 0.207722 1.21998L8.98683 10.0017L0.207722 18.7834C0.0746772 18.9172 0 19.0983 0 19.287C0 19.4757 0.0746772 19.6567 0.207722 19.7905Z" fill="black" />
+            </svg>
+        </button>
+        <form class="modal__form">
+            <input class="modal__form-input" type="text" placeholder="Логин">
+            <input class="modal__form-input" type="password" placeholder="Пароль">
+            <button class="modal__form-btn new-button modal__form-btn--enter" type="submit" data-lang="modal-enterBtn">
+                ВОЙТИ
+            </button>
+        </form>        
+    </div>
+</div>
+</main>
+    <script src="./js/form.min.js"></script>
+    <script src="./js/languages.min.js"></script>
+    <script src="./js/main.min.js"></script>
+    </div>
+</body>
+</html>
